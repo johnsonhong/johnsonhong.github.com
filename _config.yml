@@ -1,0 +1,11 @@
+title: Here I Am
+domain: hongt.tk 
+username: 洪涛
+
+pygments: true
+regeneration: true
+lsi: true
+permalink: /blog/:year/:month/:day/:title/
+category_dir: ../blog/categories/
+tag_dir: ../blog/tags/
+tag_title_prefix: 'Tag: '
