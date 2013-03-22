@@ -1,6 +1,6 @@
 ---
 title: 新博客开通了
-category: 随笔
+category: essay
 tags:
  - github
  - blog
