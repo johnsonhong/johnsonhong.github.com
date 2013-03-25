@@ -1,8 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta http-equiv="refresh" content="0;url=/blog/" />
-</head>
-</html>
+---
+layout: default
+---
 
+{% for post in site.posts limit:3 %}
+
+<div class="node">
+	<h2 class="title"><a href="{{post.url}}">{{ post.title }}</a></h2>
+	
+	<div class="content">
+		{{ post.content }}
+	</div>
+
+	{% include post_tail.html %}
+
+</div>
+
+{% endfor %}
+
+<div align="center">
+    <a href="/archives/">&raquo; Archives &laquo;</a>
+</div>
